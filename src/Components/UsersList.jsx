@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { getAllUsers } from '../Redux/Slices/UserSlice'
+import { getAllUsers } from '../Redux/Slices/UserSlice.js'
 import UserCard from './UserCard'
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa'
 const UsersList = () => {
